@@ -1,0 +1,42 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+button {
+  border: transparent;
+}
+
+.container {
+  max-width: 1292px;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (width < 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (width < 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (width < 768px) {
+  .container {
+    max-width: 576px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+@media (width < 576px) {
+  .container {
+    max-width: 100%;
+  }
+}
