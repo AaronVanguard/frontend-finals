@@ -2,10 +2,9 @@
   border: 1px solid #000;
   background: #fff;
   padding: 30px 32px;
-  min-height: 520px;
 }
 
-.news__title--top {
+.news__header {
   font-weight: 700;
   font-size: 23px;
   margin-bottom: 26px;

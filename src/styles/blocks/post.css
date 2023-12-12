@@ -18,6 +18,7 @@
 .post__img {
   height: 192px;
   position: relative;
+  object-fit: cover;
 }
 
 .post__footer {

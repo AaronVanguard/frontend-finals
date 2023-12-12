@@ -13,7 +13,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="header container">
+      <div class="header__inner container">
         <div class="header__left">
           <div class="header__logo">
             <img src="/images/logo 1.png" alt="IKIT logo" />
@@ -39,7 +39,7 @@
     <section class="inform container">
       <h2 class="inform__title">Полезная информация</h2>
       <div class="inform__content">
-        <div class="panel inform__panel">
+        <aside class="panel inform__panel">
           <h3 class="panel__title">Заголовок</h3>
           <ul class="panel__items">
             <li class="panel__item">Список 1</li>
@@ -47,10 +47,10 @@
             <li class="panel__item">Список 3</li>
             <li class="panel__item">Список 4</li>
           </ul>
-        </div>
-        <div class="news inform__news">
-          <h3 class="news__title--top">СФУ и Россий­ский универ­ситет спорта стали парт­нёрами</h3>
-          <article class="news__content">
+        </aside>
+        <section class="news inform__news">
+          <h3 class="news__header">СФУ и Россий­ский универ­ситет спорта стали парт­нёрами</h3>
+          <section class="news__content">
             <h4 class="news__title">Заголовок</h4>
             <p class="news__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -59,8 +59,8 @@
               fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
               mollit anim id est laborum.
             </p>
-          </article>
-          <article class="news__content">
+          </section>
+          <section class="news__content">
             <h4 class="news__title">Заголовок</h4>
             <p class="news__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -69,16 +69,16 @@
               fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
               mollit anim id est laborum.
             </p>
-          </article>
-        </div>
+          </section>
+        </section>
       </div>
     </section>
 
     <section class="blog container">
-      <header class="blog__header">
+      <div class="blog__header">
         <h2 class="blog__title">Интересные статьи</h2>
         <p class="blog__text">Описать, о чём эти статьи, кратко</p>
-      </header>
+      </div>
       <div class="blog__content">
         <article class="post">
           <img class="post__img" src="/images/Post1.png" alt="" />
