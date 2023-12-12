@@ -12,9 +12,119 @@
     <title>Проект</title>
   </head>
   <body>
-    <div class="container">
-      <h1 style="text-align: center">ПУСТОЙ ПРОЕКТ</h1>
-    </div>
+    <header class="header">
+      <div class="header__inner container">
+        <div class="header__left">
+          <div class="header__logo">
+            <img src="/images/logo 1.png" alt="IKIT logo" />
+          </div>
+          <nav class="menu">
+            <ul class="menu__items">
+              <li class="menu__item"><a href="#" class="menu__link menu__link--current">Главная</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Информация</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Новости</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__right">
+          <div class="header__username">Ваше имя</div>
+          <div class="header__avatar"><img src="/images/Avatar.png" alt="user avatar" /></div>
+        </div>
+      </div>
+    </header>
+
+    <h1 class="title">Личная страница</h1>
+
+    <section class="inform container">
+      <h2 class="inform__title">Полезная информация</h2>
+      <div class="inform__content">
+        <aside class="panel inform__panel">
+          <h3 class="panel__title">Заголовок</h3>
+          <ul class="panel__items">
+            <li class="panel__item">Список 1</li>
+            <li class="panel__item">Список 2</li>
+            <li class="panel__item">Список 3</li>
+            <li class="panel__item">Список 4</li>
+          </ul>
+        </aside>
+        <section class="news inform__news">
+          <h3 class="news__header">СФУ и Россий­ский универ­ситет спорта стали парт­нёрами</h3>
+          <section class="news__content">
+            <h4 class="news__title">Заголовок</h4>
+            <p class="news__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </p>
+          </section>
+          <section class="news__content">
+            <h4 class="news__title">Заголовок</h4>
+            <p class="news__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </p>
+          </section>
+        </section>
+      </div>
+    </section>
+
+    <section class="blog container">
+      <div class="blog__header">
+        <h2 class="blog__title">Интересные статьи</h2>
+        <p class="blog__text">Описать, о чём эти статьи, кратко</p>
+      </div>
+      <div class="blog__content">
+        <article class="post">
+          <img class="post__img" src="/images/Post1.png" alt="" />
+          <div class="post__content">
+            <h3 class="post__title">Boost your conversion rate</h3>
+            <p class="post__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque
+              fuga culpa, similique sequi cum eos quis dolorum.
+            </p>
+            <footer class="post__footer">
+              <time class="post__time" datetime="2020-03-16">Mar 16, 2020</time> · 6 min read
+            </footer>
+          </div>
+        </article>
+        <article class="post">
+          <img class="post__img" src="/images/Image.png" alt="" />
+          <div class="post__content">
+            <h3 class="post__title">How to use search engine optimization to drive sales</h3>
+            <p class="post__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus,
+              eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.
+            </p>
+            <footer class="post__footer">
+              <time class="post__time" datetime="2020-03-10">Mar 10, 2020</time> · 4 min read
+            </footer>
+          </div>
+        </article>
+        <article class="post">
+          <img class="post__img" src="/images/Post.png" alt="" />
+          <div class="post__content">
+            <h3 class="post__title">Improve your customer experience</h3>
+            <p class="post__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni
+              placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.
+            </p>
+            <footer class="post__footer">
+              <time class="post__time" datetime="2020-02-12">Feb 12, 2020</time> · 11 min read
+            </footer>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__content container">© 2022 Институт космических и информационных технологий СФУ</div>
+    </footer>
 
     <script type="module" src="/src/main.js"></script>
   </body>

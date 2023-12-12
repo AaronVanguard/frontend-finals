@@ -1,0 +1,23 @@
+.panel {
+  border: 1px solid #000;
+  background: #fcffe7;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel__title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.panel__items {
+  margin-top: 16px;
+}
+
+.panel__item {
+  font-size: 16px;
+  line-height: 20px;
+  word-wrap: break-word;
+  list-style: inside;
+}

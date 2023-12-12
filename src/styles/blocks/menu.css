@@ -1,0 +1,29 @@
+.menu__items {
+  display: flex;
+  gap: 16px;
+}
+
+.menu__item {
+  border-radius: 6px;
+}
+
+.menu__link {
+  padding: 8px 12px;
+  display: inline-flex;
+  align-items: center;
+  color: #d1d5db;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.menu__link:hover {
+  background-color: #253455;
+}
+
+.menu__link--current,
+.menu__link--current:hover {
+  background-color: #111827;
+  color: #fff;
+}
