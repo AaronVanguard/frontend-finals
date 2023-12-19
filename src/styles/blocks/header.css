@@ -35,3 +35,34 @@
   border-radius: 16px;
   background: #fff;
 }
+
+@media (width < 1024px) {
+  .header__logo {
+    display: none;
+  }
+}
+
+@media (width < 768px) {
+  .header__inner {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .header__avatar {
+    width: 30%;
+  }
+}
+
+@media (width < 576px) {
+  .header__username {
+    display: none;
+  }
+
+  .header__avatar {
+    width: 70%;
+  }
+}

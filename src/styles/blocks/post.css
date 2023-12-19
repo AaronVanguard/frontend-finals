@@ -39,3 +39,33 @@
   line-height: 24px;
   word-wrap: break-word;
 }
+
+@media (width < 1024px) {
+  .post__content {
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .post__img {
+    height: 160px;
+  }
+
+  .post__title {
+    font-size: 20px;
+  }
+
+  .post__text {
+    font-size: 15px;
+  }
+
+  .post__footer {
+    padding-top: 14px;
+    font-size: 14px;
+  }
+}
+
+@media (width < 768px) {
+  .post__content {
+    gap: 6px;
+  }
+}

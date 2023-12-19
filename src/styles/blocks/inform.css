@@ -17,3 +17,41 @@
 .inform__news {
   grid-column: span 8 / span 8;
 }
+
+@media (width < 1024px) {
+  .inform {
+    padding-top: 40px;
+  }
+
+  .inform__title {
+    font-size: 24px;
+  }
+
+  .inform__content {
+    margin-top: 30px;
+    gap: 15px;
+  }
+}
+
+@media (width < 768px) {
+  .inform {
+    padding-top: 28px;
+  }
+
+  .inform__title {
+    font-size: 20px;
+  }
+
+  .inform__content {
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .inform__panel {
+    grid-column: span 12 / span 12;
+  }
+
+  .inform__news {
+    grid-column: span 12 / span 12;
+  }
+}
