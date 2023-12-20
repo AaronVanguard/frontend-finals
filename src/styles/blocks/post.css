@@ -66,6 +66,7 @@
 
 @media (width < 768px) {
   .post__content {
+    min-height: auto;
     gap: 6px;
   }
 }
