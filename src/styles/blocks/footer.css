@@ -10,3 +10,21 @@
   font-size: 11px;
   line-height: 20px;
 }
+
+@media (width < 1024px) {
+  .footer {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+
+  .footer__content {
+    font-size: 10px;
+  }
+}
+
+@media (width < 768px) {
+  .footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}

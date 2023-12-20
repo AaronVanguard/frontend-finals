@@ -21,3 +21,9 @@
   word-wrap: break-word;
   list-style: inside;
 }
+
+@media (width < 768px) {
+  .panel {
+    padding: 20px 26px;
+  }
+}
