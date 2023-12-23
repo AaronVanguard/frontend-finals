@@ -85,9 +85,17 @@
     <section class="blog container">
       <div class="blog__header">
         <h2 class="blog__title">Интересные статьи</h2>
+        <div class="blog__icons">
+          <button id="button-list" type="button">
+            <svg height="24" width="24"><use xlink:href="list.svg#list-ico"></use></svg>
+          </button>
+          <button id="button-grid" type="button">
+            <svg height="24" width="24"><use xlink:href="grid.svg#grid-ico"></use></svg>
+          </button>
+        </div>
         <p class="blog__text">Описать, о чём эти статьи, кратко</p>
       </div>
-      <div class="blog__content">
+      <div class="blog__content" id="blogContent">
         <article class="post">
           <img class="post__img" src="/images/Post1.png" alt="" />
           <div class="post__content">
