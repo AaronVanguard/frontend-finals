@@ -70,3 +70,20 @@
     gap: 6px;
   }
 }
+
+.post--horizontal {
+  flex-direction: row;
+
+  .post__content {
+    min-height: auto;
+  }
+
+  .post__img {
+    width: 192px;
+    height: auto;
+
+    @media (width <= 768px) {
+      width: 130px;
+    }
+  }
+}
