@@ -57,6 +57,30 @@
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.blog__button {
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #000;
+  background: #fcffe7;
+  width: 403px;
+  text-align: center;
+  padding: 9px 0;
+}
+
+.blog__form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.blog__form--hidden {
+  display: none;
+}
+
+.blog__form-inner {
+  grid-column: 3 / span 8;
+}
+
 @media (width < 1024px) {
   .blog {
     gap: 24px;

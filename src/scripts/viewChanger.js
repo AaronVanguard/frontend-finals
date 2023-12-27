@@ -1,10 +1,10 @@
 const listButton = document.querySelector('#button-list');
 const gridButton = document.querySelector('#button-grid');
 const blogContentView = document.querySelector('#blogContent');
-const posts = document.querySelectorAll('.post');
 
-function viewChange(viewType) {
+export function viewChange(viewType) {
   const isListView = viewType === 'list';
+  const posts = document.querySelectorAll('.post');
 
   listButton.classList.toggle('blog__button--active', isListView);
   gridButton.classList.toggle('blog__button--active', !isListView);
