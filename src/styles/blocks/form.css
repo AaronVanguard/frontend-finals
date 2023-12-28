@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  font-size: 18px;
+}
+
+.form__input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form__text {
+  height: 44px;
+}
+
+.form__textarea {
+  min-height: 127.681px;
+  resize: none;
+}
+
+.form__button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__button {
+  text-align: center;
+  font-size: 16px;
+  max-width: 299px;
+  width: 100%;
+  padding: 9px 0;
+  border: 1px solid #000;
+}
+
+.form__button--create {
+  background-color: #fcffe7;
+}
+
+@media (width < 1024px) {
+  .form__button-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    align-items: center;
+  }
+}

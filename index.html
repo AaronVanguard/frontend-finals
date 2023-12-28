@@ -136,6 +136,27 @@
           </div>
         </article>
       </div>
+      <button type="button" class="blog__button">Добавить</button>
+      <footer class="blog__form blog__form--hidden">
+        <form class="form blog__form-inner">
+          <div class="form__input">
+            <label for="form__title">Название статьи</label>
+            <input type="text" id="title" name="title" class="form__text" required />
+          </div>
+          <div class="form__input">
+            <label for="form__image">Ссылка на картинку</label>
+            <input type="text" id="image" name="image" class="form__text" required />
+          </div>
+          <div class="form__input">
+            <label for="form__textarea">Описание</label>
+            <textarea class="form__textarea" id="textarea" name="textarea" required></textarea>
+          </div>
+          <div class="form__button-container">
+            <button type="reset" class="form__button form__button--cancel">Отмена</button>
+            <button type="button" class="form__button form__button--create">Создать</button>
+          </div>
+        </form>
+      </footer>
     </section>
 
     <footer class="footer">
