@@ -1,4 +1,5 @@
 import { viewChange } from './viewChanger.js';
+import { createElementWithClass } from './util.js';
 
 const form = document.querySelector('.blog__form');
 
@@ -15,12 +16,6 @@ function resetForm() {
   button_add.classList.remove('blog__form--hidden');
   document.querySelector('.form').reset();
 }
-
-const createElementWithClass = (tag, className) => {
-  const element = document.createElement(tag);
-  element.className = className;
-  return element;
-};
 
 function validateForm() {
   const titleValue = title.value.trim();

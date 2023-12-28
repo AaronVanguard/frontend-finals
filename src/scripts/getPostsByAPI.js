@@ -1,10 +1,5 @@
 import { viewChange } from './viewChanger.js';
-
-const createElementWithClass = (tag, className) => {
-  const element = document.createElement(tag);
-  element.className = className;
-  return element;
-};
+import { createElementWithClass } from './util.js';
 
 function createPostElement(post) {
   const newPost = createElementWithClass('article', 'post');
