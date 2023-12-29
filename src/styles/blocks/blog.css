@@ -113,4 +113,8 @@
   .blog__content {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
+
+  .blog__button {
+    width: 299px;
+  }
 }
